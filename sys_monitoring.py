@@ -1,7 +1,9 @@
 import psutil
 import time
 import logging
-
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.test import MIMEText
 #logging base settings
 
 logging.basicConfig(filename='system_monitoring.log', 
